@@ -19,7 +19,7 @@ class NewsSlider extends Component {
   }
 
   render(){
-      console.log(this.state.news)
+
       return(
           <SliderTemplates data={this.state.news} type={this.props.type} settings={this.props.settings}/>
       )
